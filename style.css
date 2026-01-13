@@ -2,10 +2,6 @@ body {
   font-family: Arial, sans-serif;
   background: #111620;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .card {
@@ -31,3 +27,4 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+
