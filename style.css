@@ -16,17 +16,7 @@ body {
   text-align: center;
 }
 
-.card p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
 @media (max-width: 480px) {
   .card {
     padding: 28px;
   }
-
-  .card p {
-    font-size: 1.15rem;
-  }
-}
