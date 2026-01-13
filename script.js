@@ -16,10 +16,7 @@ const card = document.createElement("div");
 card.className = "card";
 
 const quoteText = document.createElement("p");
-quoteText.textContent = "Click the button for motivation!";
-
-// const authorText = document.createElement("small");
-// authorText.textContent = "- Unknown";
+quoteText.textContent = "Click the button to see a quote!";
 
 const button = document.createElement("button");
 button.textContent = "Generate Quote";
@@ -46,4 +43,5 @@ document.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
         generateQuote();
     }
+
 });
