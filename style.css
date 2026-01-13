@@ -9,27 +9,24 @@ body {
 }
 
 .card {
-  background: #1e293b;
-  padding: 28px;
-  border-radius: 12px;
-  width:90%;
-  width: 420px;
+  width: 90%;
+  max-width: 420px;
+  padding: 24px 28px;
+  border-radius: 14px;
   text-align: center;
 }
 
 .card p {
-  font-size: 1 rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
+@media (max-width: 480px) {
+  .card {
+    padding: 28px;
+  }
 
-button {
-  margin-top: 15px;
-  padding: 12px 20px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 8px;
-  background: #38bdf8;
-  color: #000;
-  font-weight: bold;
-  cursor: pointer;
+  .card p {
+    font-size: 1.15rem;
+  }
 }
